@@ -2,6 +2,12 @@
 title: markdown语法
 date: 2018-12-25 09:47:03
 tags:
+- hexo
+- 语法
+categories:
+- 教程
+- github
+cover_picture: /images/blog.jpg
 ---
 # 标题相关
 ## 二级标题

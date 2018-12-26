@@ -7,11 +7,11 @@ favicon: /favicon.ico
 # Header
 
 # Keywords of your site | 网站关键字
-keywords: MinHow,MinHow's Blog
+keywords: 中国IT网
 # Head headline | 头部标题
-header_title: MinHow's Blog
+header_title: IT技术交流社区
 # Head description | 头部描述
-header_description: 一个专注 WEB 开发的技术博客
+header_description: 专注IT交流
 # Link to your logo | logo地址
 logo: images/logo.png
 # Link to your banner_img | 首页banner图地址
@@ -23,11 +23,11 @@ banner_img: images/banner.jpg
 #    target: true         Whether to jump out | 是否跳出
 menu:
   home:
-    title: Home
+    title: 主页
     url: /
     target: false
   archive:
-    title: Archives
+    title: 分类
     url: /archives
     target: false
   user:
@@ -41,8 +41,8 @@ menu:
 #    target: true         Whether to jump out | 是否跳出
 social:
   home:
-    title: MinHow
-    url: //minhow.com
+    title: IT网
+    url: //zg-it.net
     target: true
   github:
     title: Github
@@ -111,7 +111,18 @@ reward:
 changyan_appid: false
 changyan_appkey: false
 # 友言，输入id
-youyan_id: false
+youyan_id: true
+valine:
+    enable: true
+    appId: STaykUdJJay4cwWVnrwPxtaI-gzGzoHsz
+    appKey: 4TEc95j68Et8HNUEXwctRxXb
+    notify: false
+    verify: false
+    avatar: mp
+    placeholder: 提示文字
+    guest_info: nick,mail,link
+    pageSize: 10
+    lang: zh-cn
 # disqus
 disqus: false
 # gitment  https://github.com/imsun/gitment
@@ -138,4 +149,4 @@ access_counter:
   site_pv: 总访问量：
 
 # Copyright Information | 版权信息
-copyright: 2018 MinHow
+copyright: 2018 ZG-IT
